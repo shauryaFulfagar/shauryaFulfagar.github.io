@@ -1,0 +1,158 @@
+/* ! Basic styling very important ! */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* !Background styling very important!*/
+body{
+    background-image: linear-gradient(120deg, #AEBD5A, #6FD1C0);
+    font-family: 'Comfortaa', sans-serif;
+    min-height: 100vh;
+}
+
+/* *Styling the header* */
+header{
+    font-size: 1.5rem;
+}
+
+/* !Form styling very important! */
+header, 
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* !More form styling button and entry(input)very importanat! */
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* *Beautifying the button* */
+
+form button{
+    color: #6FD1C0;
+    background: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+/* ? This is adjustable hover keeps changing from time to time when cursor hovered ?*/
+form button:hover{
+    background: #6FD1C0;
+    color: white;
+}
+
+
+/* *Beautifying the container* */
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *Beautifying the main list part* */
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+
+
+/* *Beautifying each and evry todo* */
+.todo{
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+
+/* *Designing the li* */
+.todo li{
+    flex: 1;
+}
+
+
+/* *Beautifying the buttons* */
+.trash-btn, .complete-btn{
+    background: #c1f3c9;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* *Coloring the complete button separately* */
+.complete-btn{
+    background: rgb(149, 248, 0);
+}
+.complete-btn:hover{
+    background: rgba(30, 212, 30, 0.363);
+    transition: 0.3s ease;
+}
+
+/* *Coloring the trash button separately* */
+.trash-btn{
+    background: rgb(240, 2, 54);
+}
+.trash-btn:hover{
+    background: rgba(240, 2, 53, 0.363);
+    transition: 0.3s ease;
+}
+
+/* *Beautfying the todo item* */
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash, .fa-check{
+   pointer-events: none; 
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+
+.back{
+    margin-left: 7px;
+    width: 125px;
+    height: 51.5px;
+    font-size: 25px;
+    border: 1px solid #9a77aa;
+    background:#caaadd;
+    border-radius: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-weight: bold;
+    color: #fff;
+    background: -moz-linear-gradient(top, #caaadd 0%, #9a77aa 100%);
+    background: -webkit-linear-gradient(top, #caaadd 0%, #9a77aa 100%);
+    background: linear-gradient(top, #caaadd 0%, #9a77aa 100%);
+}
+
+.back:hover{
+    background:#9a77aa;
+    background: -moz-linear-gradient(bottom, #caaadd 0%, #9a77aa 100%);
+    background: -webkit-linear-gradient(bottom, #caaadd 0%, #9a77aa 100%);
+    background: linear-gradient(bottom, #caaadd 0%, #9a77aa 100%);
+}

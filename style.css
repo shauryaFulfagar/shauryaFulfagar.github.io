@@ -1,0 +1,37 @@
+body{
+    background-image: url(BG-IMG.jpg);
+}
+
+body .apps{
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: rgb(248, 65, 65);
+    background-color: rgb(202, 159, 238);
+    font-weight: bold;
+    width:144px;
+    height:60px;
+}
+
+body .games{
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: rgb(107, 70, 141);
+    background-color: rgb(238, 159, 208);
+    font-weight: bold;
+    width:175px;
+    height:60px;
+}
+
+body .games:hover{
+    background-color: rgb(107, 70, 141);
+    color: rgb(238, 159, 208);
+    transition: 0.2s ease;
+}
+
+body .apps:hover{
+    background-color: rgb(248, 65, 65);
+    color: rgb(202, 159, 238);
+    transition: 0.2s ease;
+}

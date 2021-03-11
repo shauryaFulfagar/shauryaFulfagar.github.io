@@ -1,0 +1,183 @@
+body{
+    background: #111010;
+}
+
+body .caption{
+    color: rgb(221, 53, 53);
+    font-size: 20px;
+}
+
+.caption2{
+    color: rgb(221, 53, 53);
+    font-size: 20px;
+}
+
+body .lego{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 30px 0;
+    color: #03e9f4;
+    font-size: 24px;
+    background-color: #000000;
+    text-decoration: none;
+    /*overflow: hidden;*/
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+
+body .snake{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 30px 0;
+    color: #D7AEFB;
+    font-size: 24px;
+    background-color: #000000;
+    text-decoration: none;
+    /*overflow: hidden;*/
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+
+body .floor{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 30px 0;
+    color: #f4f003;
+    font-size: 24px;
+    background-color: #000000;
+    text-decoration: none;
+    /*overflow: hidden;*/
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+
+body .alien{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 30px 0;
+    color: #f33f99;
+    font-size: 24px;
+    background-color: #000000;
+    text-decoration: none;
+    /*overflow: hidden;*/
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+
+
+
+body .lego:hover{
+    background: #03e9f4;
+    color: #000000;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+
+
+body .snake:hover{
+    background: #D7AEFB;
+    color: #000000;
+    box-shadow: 0 0 5px #D7AEFB,
+                0 0 25px #D7AEFB,
+                0 0 50px #D7AEFB,
+                0 0 100px #D7AEFB;
+}
+
+body .floor:hover{
+    background: #f4f003;
+    color: #000000;
+    box-shadow: 0 0 5px #f4f003,
+                0 0 25px #f4f003,
+                0 0 50px #f4f003,
+                0 0 100px #f4f003;
+}
+
+body .alien:hover{
+    background: #f33f99;
+    color: #000000;
+    box-shadow: 0 0 5px #f33f99,
+                0 0 25px #f33f99,
+                0 0 50px #f33f99,
+                0 0 100px #f33f99;
+}
+
+body .jump{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 30px 0;
+    color: #47f403;
+    font-size: 24px;
+    background-color: #000000;
+    text-decoration: none;
+    /*overflow: hidden;*/
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+
+body .jump:hover{
+    background: #47f403;
+    color: #000000;
+    box-shadow: 0 0 5px #47f403,
+                0 0 25px #47f403,
+                0 0 50px #47f403,
+                0 0 100px #47f403;
+}
+
+body .karting{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 15px 0;
+    color: #036bf4;
+    font-size: 24px;
+    background-color: #000000;
+    text-decoration: none;
+    /*overflow: hidden;*/
+    transition: 0.5s;
+    letter-spacing: 2px;
+
+}
+
+body .karting:hover{
+    background: #036bf4;
+    color: #000000;
+    box-shadow: 0 0 5px #036bf4,
+                0 0 25px #036bf4,
+                0 0 50px #036bf4,
+                0 0 100px #036bf4;
+}
+
+.back{
+    width: 125px;
+    height: 45px;
+    font-size: 25px;
+    border: 1px solid #77aa7e;
+    background:#aadddd;
+    border-radius: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-weight: bold;
+    background: -moz-linear-gradient(top, #aaddb1 0%, #77aa7e 100%);
+    background: -webkit-linear-gradient(top, #aaddb1 0%, #77aa7e 100%);
+    background: linear-gradient(top, #aaddb1 0%, #77aa7e 100%);
+}
+
+.back:hover{
+    background:#77aa7e;
+    background: -moz-linear-gradient(bottom, #aaddb1 0%, #77aa7e 100%);
+    background: -webkit-linear-gradient(bottom, #aaddb1 0%, #77aa7e 100%);
+    background: linear-gradient(bottom, #aaddb1 0%, #77aa7e 100%);
+    transition: 0.27s ease;
+}
