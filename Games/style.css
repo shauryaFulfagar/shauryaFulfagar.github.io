@@ -12,6 +12,7 @@ body h1{
 }
 
 body .lego{
+    border: none;
     position: relative;
     display: block;
     padding: 25px 30px;
@@ -27,6 +28,7 @@ body .lego{
 }
 
 body .snake{
+    border: none;
     position: relative;
     display: block;
     padding: 25px 30px;
@@ -42,6 +44,7 @@ body .snake{
 }
 
 body .floor{
+    border: none;
     position: relative;
     display: block;
     padding: 25px 30px;
@@ -57,6 +60,7 @@ body .floor{
 }
 
 body .alien{
+    border: none;
     position: relative;
     display: block;
     padding: 25px 30px;
@@ -112,6 +116,7 @@ body .alien:hover{
 }
 
 body .jump{
+    border: none;
     position: relative;
     display: block;
     padding: 25px 30px;
@@ -136,6 +141,7 @@ body .jump:hover{
 }
 
 body .karting{
+    border: none;
     position: relative;
     display: block;
     padding: 25px 30px;
