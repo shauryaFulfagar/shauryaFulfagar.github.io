@@ -24,6 +24,14 @@ body .games{
     height:60px;
 }
 
+p1{
+    font-size:30;
+}
+
+p2{
+    font-size:30;
+}
+
 body .games:hover{
     background-color: rgb(107, 70, 141);
     color: rgb(238, 159, 208);
