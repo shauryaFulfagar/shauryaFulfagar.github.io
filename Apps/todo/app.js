@@ -1,4 +1,3 @@
-
 // *Import every thing from HTML*
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
@@ -64,9 +63,3 @@ function deleteCheck(e){
     }
 
 }
-
-/*
-! link is https://www.youtube.com/watch?v=Ttf3CEsEwMQ !
-* Continue from line 22-23 *
-? Link for output at file:///C:/Users/Hemant/Desktop/Coding/JavaScript/Games%20&%20Apps/To-Do-App/index.html ?
-*/
