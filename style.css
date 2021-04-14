@@ -1,45 +1,66 @@
-body{
-    background-image: url(BG-IMG.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@600&display=swap');
+
+*{
+    PADDING: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+.Text{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size: 30px;
+    font-family: "Fira Sans Condensed",Arial, sans-serif;
+    color: #e94295d3;
+    letter-spacing: 1px;
+}
+
+.Text2{
+    margin-left: 10px;
+    margin-top:55px;
+    font-size: 30px;
+    font-family: "Fira Sans Condensed",Arial, sans-serif;
+    color: #e94295d3;
+    letter-spacing: 1px;
+}
+body{
+    background-image: url(background.png);
+}
 body .apps{
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
-    color: rgb(248, 65, 65);
-    background-color: rgb(202, 159, 238);
+    color: rgb(223, 35, 10);
+    background-color: rgb(245, 210, 13);
     font-weight: bold;
     width:144px;
     height:60px;
+    transition: 0.4s ease all;
 }
 
 body .games{
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
-    color: rgb(107, 70, 141);
-    background-color: rgb(238, 159, 208);
+    color: rgb(46, 93, 107);
+    background-color: rgb(93, 230, 166);
     font-weight: bold;
     width:175px;
     height:60px;
+    transition: 0.4s ease all;
 }
 
-p1{
-    font-size:30;
-}
-
-p2{
-    font-size:30;
-}
 
 body .games:hover{
-    background-color: rgb(107, 70, 141);
-    color: rgb(238, 159, 208);
-    transition: 0.2s ease;
+    background-color: rgb(46, 93, 107);
+    color: rgb(64, 212, 143);
+    transition: 0.4s ease;
 }
 
 body .apps:hover{
-    background-color: rgb(248, 65, 65);
-    color: rgb(202, 159, 238);
-    transition: 0.2s ease;
+    background-color: rgb(226, 38, 13);
+    color: rgb(241, 207, 12);;
+    transition: 0.4s ease;
 }
