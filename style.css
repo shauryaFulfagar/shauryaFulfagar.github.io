@@ -9,20 +9,13 @@
 .Text{
     margin-left: 10px;
     margin-top:10px;
-    font-size: 30px;
+    font-size: 32px;
     font-family: "Fira Sans Condensed",Arial, sans-serif;
     color: #e94295d3;
     letter-spacing: 1px;
 }
 
-.Text2{
-    margin-left: 10px;
-    margin-top:55px;
-    font-size: 30px;
-    font-family: "Fira Sans Condensed",Arial, sans-serif;
-    color: #e94295d3;
-    letter-spacing: 1px;
-}
+
 body{
     background-image: url(background.png);
 }
@@ -37,11 +30,11 @@ body .apps{
     width:144px;
     height:60px;
     transition: 0.4s ease all;
-    margin-bottom: 294px;
+    margin-bottom: 336px;
 }
 
 .ico{
-    margin-left: 18px;
+    margin-left: 12px;
     cursor:pointer;
 }
 
@@ -98,8 +91,8 @@ body .games{
 
 
 body .games:hover{
-    background-color: rgb(46, 93, 107);
-    color: rgb(64, 212, 143);
+    background-color: rgb(42, 97, 114);
+    color: rgb(61, 214, 143);
     transition: 0.4s ease;
 }
 
