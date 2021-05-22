@@ -32,6 +32,21 @@ body .todo{
     border: none;
 }
 
+body .timer{
+    position: relative;
+    display: block;
+    padding: 25px 30px;
+    margin: 30px 0;
+    color: #f40384;
+    font-size: 24px;
+    background-color: #302f2f;
+    text-decoration: none;
+    /*overflow: hidden;*/
+    transition: 0.5s;
+    letter-spacing: 2px;
+    border: none;
+}
+
 
 body .calc:hover{
     background: #03e9f4;
@@ -40,6 +55,15 @@ body .calc:hover{
                 0 0 25px #03e9f4,
                 0 0 50px #03e9f4,
                 0 0 100px #03e9f4;
+}
+
+body .timer:hover{
+    background: #f40384;
+    color: #302f2f;
+    box-shadow: 0 0 5px #f40384,
+                0 0 25px #f40384,
+                0 0 50px #f40384,
+                0 0 100px #f40384;
 }
 
 body .todo:hover{

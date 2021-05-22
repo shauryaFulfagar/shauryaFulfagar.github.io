@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "KoHo", sans-serif, Arial, Helvetica
+
+}
+
+html, body
+{
+    height: 100%;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #ececec;
+}
+header
+{
+    width:  100%;
+    height: 13vh;
+    background-color: #ececec;
+    color: #436b7e;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content
+{
+    width: 100%;
+    height: 60vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content #seconds
+{
+    width: 270px;
+    font-size: 2rem;
+    padding:1rem;
+    outline: none;
+    background:none;
+    border: none;
+    border-bottom: 3px solid rgb(107, 107, 107);
+}
+
+#seconds::placeholder
+{
+    color:rgb(112, 112, 112);
+    font-size: 1.7rem;
+}
+
+.btn{
+    margin-top: 40px;
+    -webkit-appearance: none;
+    box-shadow:
+    -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border:8px solid#ececec;
+    outline:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.8rem 1.7rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.btn:after{
+    font-family: "KoHo";
+    color:#7a7a7a;
+    font-size: 1.7rem;
+}
+
+.btn:active{
+    box-shadow:
+    -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12),
+    inset -10px -10px 15px rgba(255,255,255,0.5),
+    inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.btn:active:after{
+    transition: 0.1s;
+}
+
+.start
+{
+    color:	#2aa823;
+}
+.stop{
+    color: #E00;
+}
+
+#start, #stop, #continue{
+    display:none;
+}
