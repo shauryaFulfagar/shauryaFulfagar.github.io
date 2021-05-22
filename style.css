@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+
 
 *{
     PADDING: 0;
@@ -10,8 +12,8 @@
     margin-left: 10px;
     margin-top:10px;
     font-size: 32px;
-    font-family: "Fira Sans Condensed",Arial, sans-serif;
-    color: #e94295d3;
+    font-family: 'KoHo', sans-serif;
+    color: #1f262c;
     letter-spacing: 1px;
 }
 body{
@@ -22,11 +24,11 @@ body .apps{
     width:175px;
     height:60px;
     margin:19px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'KoHo', sans-serif;
     font-size: 32px;
     position: relative;
-    background-color: rgb(221, 66, 66);
-    color: rgb(255, 196, 59);
+    background-color: #6495d4;
+    color: black;
     transition:transform 0.3s ease;
     border-radius: 7px;
 }
@@ -35,7 +37,7 @@ body .apps::after, body .apps::before{
     content: "";
     position: absolute;
     opacity: 0.3;
-    background:rgb(221, 66, 66);
+    background:#6495d4;
     border-radius: inherit;
     width: 100%;
     height: 100%;
@@ -64,11 +66,11 @@ body .games{
     width:200px;
     height:64px;
     margin:19px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'KoHo', sans-serif;
     font-size: 27px;
     position: relative;
-    color: rgb(46, 93, 107);
-    background-color: rgb(52, 192, 127);
+    color: rgb(0, 0, 0);
+    background-color: #359c6c;
     transition:transform 0.3s ease;
     border-radius: 7px;
 }
@@ -76,7 +78,7 @@ body .games::after, body .games::before{
     content: "";
     position: absolute;
     opacity: 0.3;
-    background:rgb(52, 192, 127);
+    background:#359c6c;
     border-radius: inherit;
     width: 100%;
     height: 100%;
