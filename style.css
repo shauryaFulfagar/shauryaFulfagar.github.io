@@ -19,85 +19,85 @@
 body{
     background-image: url(background.png);
 }
+
+
 body .apps{
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-    color: rgb(223, 35, 10);
-    background-color: rgb(245, 210, 13);
-    font-weight: bold;
-    width:144px;
-    height:60px;
-    transition: 0.4s ease all;
-    margin-bottom: 336px;
-}
-
-.ico{
-    margin-left: 12px;
-    cursor:pointer;
-}
-
-.icon{
-    position: relative;
-    display:  inline-block;
-}
-
-.icon span{
-    position: relative;
-    width: 210px;
-    background: black;
-    color: white;
-    padding: 5px 0;
-    text-align: center;
-    border-radius: 8px;
-    display:block;
-    margin:0 auto;
-    font-family:"Fira Sans Condensed",sans-serif,Arial;  
-    margin-left: 10px;
-    opacity:0;
-    transition:0.3s opacity;  
-}
-
-.icon span:before{
-    content:'';
-    width:10px;
-    height: 10px;
-    position:absolute;
-    top:-6px;
-    background:black;
-    z-index: -1;
-    left:50px;
-    transform:translateX(-50%) rotate(45deg);
-}
-
-.icon:hover > span{
-    opacity:1;
-}
-
-
-body .games{
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
-    color: rgb(46, 93, 107);
-    background-color: rgb(93, 230, 166);
-    font-weight: bold;
+    border: none;
     width:175px;
     height:60px;
-    transition: 0.4s ease all;
+    margin:19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    position: relative;
+    background-color: rgb(221, 66, 66);
+    color: rgb(255, 196, 59);
+    transition:transform 0.3s ease;
+    border-radius: 7px;
 }
 
-
-body .games:hover{
-    background-color: rgb(42, 97, 114);
-    color: rgb(61, 214, 143);
-    transition: 0.4s ease;
+body .apps::after, body .apps::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background:rgb(221, 66, 66);
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
 }
 
 body .apps:hover{
-    background-color: rgb(226, 38, 13);
-    color: rgb(241, 207, 12);;
-    transition: 0.4s ease;
+    transform: translate(-12px, -12px);
+}
+body .apps:hover::after{
+    transform:translate(6px, 6px);
+}
+body .apps:hover::before{
+    transform:translate(12px, 12px);
+}
+
+
+
+
+
+body .games{
+    border: none;
+    width:200px;
+    height:64px;
+    margin:19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    position: relative;
+    color: rgb(46, 93, 107);
+    background-color: rgb(52, 192, 127);
+    transition:transform 0.3s ease;
+    border-radius: 7px;
+}
+
+
+body .games::after, body .games::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background:rgb(52, 192, 127);
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+body .games:hover{
+    transform: translate(-12px, -12px);
+}
+body .games:hover::after{
+    transform:translate(6px, 6px);
+}
+body .games:hover::before{
+    transform:translate(12px, 12px);
 }
