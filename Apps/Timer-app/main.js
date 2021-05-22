@@ -52,7 +52,7 @@ function count(){
 	}
 	else{
 		counter.innerHTML = "Done!";
-		var audio = new Audio('C:/Users/Shaurya/Desktop/Timer-app/sound.mp3')
+		var audio = new Audio('./sound.mp3')
 		audio.play()
 		btn.style.opacity = '0';
 	}
