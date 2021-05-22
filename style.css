@@ -14,13 +14,9 @@
     color: #e94295d3;
     letter-spacing: 1px;
 }
-
-
 body{
     background-image: url(background.png);
 }
-
-
 body .apps{
     border: none;
     width:175px;
@@ -76,8 +72,6 @@ body .games{
     transition:transform 0.3s ease;
     border-radius: 7px;
 }
-
-
 body .games::after, body .games::before{
     content: "";
     position: absolute;
