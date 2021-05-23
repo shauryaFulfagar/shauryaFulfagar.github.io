@@ -3,7 +3,7 @@
 
 
 *{
-    PADDING: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -14,7 +14,7 @@
     font-size: 32px;
     font-family: 'KoHo', sans-serif;
     color: #1f262c;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
 }
 body{
     background-image: url(background.png);
